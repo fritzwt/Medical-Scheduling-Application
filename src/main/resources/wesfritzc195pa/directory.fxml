@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wesfritzc195pa.controllers.directoryController">
+   <children>
+      <Label layoutX="346.0" layoutY="33.0" text="Directory">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitAppButton" layoutX="688.0" layoutY="452.0" mnemonicParsing="false" onAction="#onClickExitApp" prefHeight="53.0" prefWidth="93.0" text="Exit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewReportsButton" layoutX="588.0" layoutY="190.0" mnemonicParsing="false" onAction="#onClickViewReports" prefHeight="95.0" prefWidth="146.0" text="View" textOverrun="CLIP" />
+      <Button fx:id="viewCustomerButton" layoutX="120.0" layoutY="190.0" mnemonicParsing="false" onAction="#onClickViewCustomer" prefHeight="95.0" prefWidth="146.0" text="Customers" textOverrun="CLIP" />
+      <Button fx:id="viewAppointmentsButton" layoutX="346.0" layoutY="190.0" mnemonicParsing="false" onAction="#onClickViewAppointments" prefHeight="95.0" prefWidth="146.0" text="Appointments" textOverrun="CLIP" />
+      <Label alignment="CENTER" layoutX="120.0" layoutY="137.0" prefHeight="53.0" prefWidth="146.0" text="Customers" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="330.0" layoutY="137.0" prefHeight="53.0" prefWidth="179.0" text="Appointments" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="307.0" layoutY="158.0" orientation="VERTICAL" prefHeight="254.0" prefWidth="1.0" />
+      <Separator layoutX="537.0" layoutY="164.0" orientation="VERTICAL" prefHeight="254.0" prefWidth="6.0" />
+      <Label alignment="CENTER" layoutX="588.0" layoutY="138.0" prefHeight="53.0" prefWidth="146.0" text="Reports" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

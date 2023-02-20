@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="1059.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wesfritzc195pa.controllers.viewReportsController">
+   <children>
+      <Label alignment="CENTER" layoutX="324.0" prefHeight="37.0" prefWidth="285.0" text="Reports">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="50.0" layoutY="91.0" prefHeight="360.0" prefWidth="108.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="55.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="53.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="76.0" text="JAN:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="62.0" prefWidth="112.0" text="FEB:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="76.0" prefWidth="138.0" text="MAR:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="58.0" prefWidth="82.0" text="APR:" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="86.0" prefWidth="144.0" text="MAY:" GridPane.rowIndex="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="55.0" prefWidth="89.0" text="JUN:" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="95.0" text="JUL:" GridPane.rowIndex="6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="119.0" text="AUG:" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="58.0" prefWidth="116.0" text="SEP:" GridPane.rowIndex="8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="69.0" prefWidth="106.0" text="OCT:" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="84.0" prefWidth="113.0" text="NOV:" GridPane.rowIndex="10">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="88.0" prefWidth="111.0" text="DEC:" GridPane.rowIndex="11">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="janLabel" alignment="CENTER" prefHeight="56.0" prefWidth="92.0" text="Label" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="febLabel" alignment="CENTER" prefHeight="52.0" prefWidth="86.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="marLabel" alignment="CENTER" prefHeight="74.0" prefWidth="109.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="aprLabel" alignment="CENTER" prefHeight="79.0" prefWidth="141.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="junLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="julLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="augLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="sepLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="octLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="novLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="decLabel" alignment="CENTER" prefHeight="95.0" prefWidth="177.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="29.0" prefHeight="28.0" prefWidth="206.0" text="Total Customer Appointments" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="69.0" layoutY="71.0" prefHeight="20.0" prefWidth="71.0" text="By Month:" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="71.0" layoutY="456.0" prefHeight="20.0" prefWidth="65.0" text="By Type:" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="205.0" layoutY="57.0" orientation="VERTICAL" prefHeight="508.0" prefWidth="6.0" />
+      <Label alignment="CENTER" layoutX="515.0" layoutY="43.0" prefHeight="28.0" prefWidth="135.0" text="Contact Schedules" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="anikaTableView" layoutX="233.0" layoutY="91.0" prefHeight="102.0" prefWidth="795.0">
+        <columns>
+          <TableColumn fx:id="aAppointmentIDColumn" prefWidth="102.0" text="Appointment_ID" />
+          <TableColumn fx:id="aTitleColumn" prefWidth="68.0" text="Title" />
+            <TableColumn fx:id="aDescriptionColumn" prefWidth="121.0" text="Description" />
+            <TableColumn fx:id="aTypeColumn" prefWidth="173.0" text="Type" />
+            <TableColumn fx:id="aDateColumn" prefWidth="83.0" text="Date" />
+            <TableColumn fx:id="aStartColumn" prefWidth="84.0" text="Start Time" />
+            <TableColumn fx:id="aEndColumn" prefWidth="82.0" text="End Time" />
+            <TableColumn fx:id="aCustomerColumn" prefWidth="81.0" text="Customer_ID" />
+        </columns>
+      </TableView>
+      <TableView fx:id="danielTableView" layoutX="233.0" layoutY="220.0" prefHeight="102.0" prefWidth="795.0">
+         <columns>
+            <TableColumn fx:id="dAppointmentIDColumn" prefWidth="102.0" text="Appointment_ID" />
+            <TableColumn fx:id="dTitleColumn" prefWidth="68.0" text="Title" />
+            <TableColumn fx:id="dDescriptionColumn" prefWidth="138.0" text="Description" />
+            <TableColumn fx:id="dTypeColumn" prefWidth="153.0" text="Type" />
+            <TableColumn fx:id="dDateColumn" prefWidth="86.0" text="Date" />
+            <TableColumn fx:id="dStartColumn" prefWidth="81.0" text="Start Time" />
+            <TableColumn fx:id="dEndColumn" prefWidth="88.0" text="End Time" />
+            <TableColumn fx:id="dCustomerColumn" prefWidth="78.0" text="Customer_ID" />
+         </columns>
+      </TableView>
+      <TableView fx:id="liTableView" layoutX="233.0" layoutY="349.0" prefHeight="102.0" prefWidth="795.0">
+         <columns>
+            <TableColumn fx:id="lAppointmentIDColumn" prefWidth="102.0" text="Appointment_ID" />
+            <TableColumn fx:id="lTitleColumn" prefWidth="68.0" text="Title" />
+            <TableColumn fx:id="lDescriptionColumn" prefWidth="138.0" text="Description" />
+            <TableColumn fx:id="lTypeColumn" prefWidth="154.0" text="Type" />
+            <TableColumn fx:id="lDateColumn" prefWidth="83.0" text="Date" />
+            <TableColumn fx:id="lStartColumn" prefWidth="90.0" text="Start Time" />
+            <TableColumn fx:id="lEndColumn" prefWidth="81.0" text="End Time" />
+            <TableColumn fx:id="lCustomerColumn" prefWidth="78.0" text="Customer_ID" />
+         </columns>
+      </TableView>
+      <Label layoutX="233.0" layoutY="63.0" prefHeight="37.0" prefWidth="95.0" text="Anika Costa" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="193.0" prefHeight="37.0" prefWidth="95.0" text="Daniel Garcia" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="322.0" prefHeight="37.0" prefWidth="95.0" text="Li Lee" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="211.0" layoutY="466.0" prefHeight="0.0" prefWidth="726.0" />
+      <Label alignment="CENTER" layoutX="324.0" layoutY="475.0" prefHeight="28.0" prefWidth="285.0" text="Total Number of Customers per Country" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="800.0" layoutY="500.0" mnemonicParsing="false" onAction="#onActionBackToDirectory" prefHeight="69.0" prefWidth="124.0" text="Directory">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutX="767.0" layoutY="477.0" orientation="VERTICAL" prefHeight="114.0" prefWidth="0.0" />
+      <GridPane layoutX="233.0" layoutY="520.0" prefHeight="60.0" prefWidth="503.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="223.0" text="U.S." underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="223.0" text="UK" underline="true" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="223.0" text="Canada" underline="true" GridPane.columnIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="usLabel" alignment="CENTER" prefHeight="54.0" prefWidth="220.0" text="Label" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ukLabel" alignment="CENTER" prefHeight="54.0" prefWidth="220.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="canadaLabel" alignment="CENTER" prefHeight="54.0" prefWidth="220.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <TableView fx:id="typeTableView" layoutX="9.0" layoutY="483.0" prefHeight="102.0" prefWidth="191.0">
+        <columns>
+          <TableColumn fx:id="typeTableTypeColumn" prefWidth="122.00001525878906" text="Type" />
+          <TableColumn fx:id="typeTableCountColumn" prefWidth="48.333343505859375" text="Count" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
